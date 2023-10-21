@@ -16,3 +16,11 @@ utilizando uma lista de instâncias da classe Person com a classe IMC atribuída
 
 <img src="assets/images/print2.png" />
 <br />
+
+## Terceira Parte
+
+Incrementando a sua Calculadora de IMC, agora aplicando a persistência de dados locais para salvar os dados de IMC.
+
+<img src="assets/images/print3.png" />
+<img src="assets/images/print4.png" />
+<br />

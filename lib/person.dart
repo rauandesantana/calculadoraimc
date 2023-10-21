@@ -1,20 +1,33 @@
 import 'package:calculadoraimc/imc.dart';
-import 'package:flutter/material.dart';
 
 class Person {
-  TextEditingValue name;
-  TextEditingValue height;
-  TextEditingValue weight;
-  IMC? imc;
+  late String _name;
+  late double _height;
+  late double _weight;
+  late IMC _imc;
 
   Person({
-    required this.name,
-    required this.height,
-    required this.weight,
+    required String name,
+    required double height,
+    required double weight,
+    IMC? putIMC,
   }) {
-    imc = IMC(
-      height: double.tryParse(height.text) ?? 0,
-      weight: double.tryParse(weight.text) ?? 0,
-    );
+    _name = name;
+    _height = height;
+    _weight = weight;
+
+    if (putIMC != null) {
+      _imc = putIMC;
+    } else {
+      _imc = IMC(
+        height: height,
+        weight: weight,
+      );
+    }
   }
+
+  String get name => _name;
+  double get height => _height;
+  double get weight => _weight;
+  IMC get imc => _imc;
 }
