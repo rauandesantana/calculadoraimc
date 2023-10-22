@@ -19,7 +19,7 @@ utilizando uma lista de instâncias da classe Person com a classe IMC atribuída
 
 ## Terceira Parte
 
-Incrementando a sua Calculadora de IMC, agora aplicando a persistência de dados locais para salvar os dados de IMC.
+Incrementando a Calculadora de IMC, agora aplicando a persistência de dados locais para salvar os dados de IMC.
 
 <img width="400" src="assets/images/print3.jpg" />               <img width="400" src="assets/images/print4.jpg" />
 <br />
